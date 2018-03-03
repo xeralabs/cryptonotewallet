@@ -1,3 +1,6 @@
 [submodule "xeracoin"]
 	path = xeracoin
 	url = https://github.com/xeralabs/xeracoin.git
+[submodule "cryptonote"]
+	path = cryptonote
+	url = https://github.com/xeralabs/xeracoin.git
