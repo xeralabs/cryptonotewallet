@@ -8,13 +8,13 @@ execute_process(COMMAND git log -1 --pretty=format:%h
 WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 OUTPUT_VARIABLE GIT_REVISION)
 
-set(CRYPTONOTE_LIB xeracoin)
+set(CRYPTONOTE_LIB cryptonote)
 
 include_directories(${CMAKE_BINARY_DIR}
     src
-    xeracoin/external
-    xeracoin/include
-    xeracoin/src)
+    cryptonote/external
+    cryptonote/include
+    cryptonote/src)
 
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
